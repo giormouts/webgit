@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 500px;
+    border: 1px solid black;
+}
+
+div[class^="box"] {
+    width: 500px;
+    height: 100px;
+    margin: 0 10px;
+    color: white;
+    background-color: rgb(57, 145,115);
+    font-size: 3rem;
+}
